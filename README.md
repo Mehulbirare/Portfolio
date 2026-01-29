@@ -1,6 +1,6 @@
 <div align="center">
 
-# M1 | NEXT-GEN PORTFOLIO
+# MEHUL BIRARE | NEXT-GEN PORTFOLIO
 ### High-Performance • Interactivity • 3D Immersion
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -63,7 +63,7 @@ npm run build
 ## 📂 DIRECTORY DATA STRUCTURE
 
 ```
-M1-PORTFOLIO
+MEHUL-BIRARE-PORTFOLIO
 ├── 📁 src
 │   ├── 📁 app          # App Router pages & layouts
 │   ├── 📁 components
