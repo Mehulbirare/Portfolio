@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Send, Sparkles } from "lucide-react";
+import { Mail, Linkedin, Github, Send, Sparkles } from "lucide-react";
 
 export default function Contact() {
     return (
@@ -46,14 +46,24 @@ export default function Contact() {
                         whileTap={{ scale: 0.95 }}
                         className="px-10 py-5 glass-card border border-white/10 font-bold flex items-center gap-3 hover:bg-white/5 transition-colors rounded-2xl"
                     >
-                        <Linkedin className="w-5 h-5" /> LinkedIn Profile
+                        <Linkedin className="w-5 h-5" /> LinkedIn
+                    </motion.a>
+
+                    <motion.a
+                        href="https://github.com/Mehulbirare"
+                        target="_blank"
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        className="px-10 py-5 glass-card border border-white/10 font-bold flex items-center gap-3 hover:bg-white/5 transition-colors rounded-2xl"
+                    >
+                        <Github className="w-5 h-5" /> GitHub
                     </motion.a>
                 </div>
 
                 <div className="pt-20 border-t border-white/5 mt-20 flex flex-col md:flex-row items-center justify-between gap-8 text-muted text-sm font-mono">
                     <div>© 2026 MEHUL BIRARE. SHIPS FROM SURAT, IN.</div>
                     <div className="flex gap-8">
-                        <a href="#" className="hover:text-primary transition-colors">GITHUB</a>
+                        <a href="https://github.com/Mehulbirare" target="_blank" className="hover:text-primary transition-colors">GITHUB</a>
                         <a href="#" className="hover:text-primary transition-colors">TWITTER</a>
                         <a href="#" className="hover:text-primary transition-colors">RESUME</a>
                     </div>

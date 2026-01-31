@@ -54,9 +54,14 @@ export default function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
-                        <button className="px-5 py-2 rounded-full border border-primary/50 text-primary text-sm font-bold hover:bg-primary hover:text-background transition-all">
+                        <a
+                            href="/resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-5 py-2 rounded-full border border-primary/50 text-primary text-sm font-bold hover:bg-primary hover:text-background transition-all"
+                        >
                             Resume
-                        </button>
+                        </a>
                     </div>
 
                     {/* Mobile Toggle */}
@@ -97,9 +102,14 @@ export default function Navbar() {
                             </Link>
                         ))}
 
-                        <button className="mt-8 px-8 py-4 rounded-full border-2 border-primary text-primary text-xl font-bold hover:bg-primary hover:text-background transition-all">
+                        <a
+                            href="/resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-8 px-8 py-4 rounded-full border-2 border-primary text-primary text-xl font-bold hover:bg-primary hover:text-background transition-all"
+                        >
                             Download Resume
-                        </button>
+                        </a>
                     </motion.div>
                 )}
             </AnimatePresence>

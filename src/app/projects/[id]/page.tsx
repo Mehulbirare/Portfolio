@@ -20,7 +20,7 @@ const projectData: Record<string, any> = {
             "Dynamic Dark/Light Theme Switching",
             "Custom Drawer & Tab Navigation"
         ],
-        mainImage: "/project-cars.jpg",
+        mainImage: "/project-cars-v2.png",
     },
     "02": {
         title: "Prakruti – Wellness Platform",
@@ -35,7 +35,7 @@ const projectData: Record<string, any> = {
             "Seamless Glassmorphism UI",
             "Real-time Chat with Health Coaches"
         ],
-        mainImage: "/project-prakruti.jpg",
+        mainImage: "/project-prakruti-v2.png",
     },
     "03": {
         title: "Velocity Shop – Sports E-Commerce",
@@ -50,7 +50,7 @@ const projectData: Record<string, any> = {
             "Performance-first Rendering",
             "Dynamic Inventory Management"
         ],
-        mainImage: "/project-velocity.jpg",
+        mainImage: "/project-velocity-v2.png",
     },
     "04": {
         title: "Terra – Techwear Platform",
@@ -65,7 +65,7 @@ const projectData: Record<string, any> = {
             "Advanced AR Try-on Previews",
             "Edge-optimized Performance"
         ],
-        mainImage: "/project-terra.jpg",
+        mainImage: "/project-terra-v2.png",
     }
 };
 
